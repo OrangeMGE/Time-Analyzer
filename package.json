@@ -1,0 +1,29 @@
+{
+  "name": "time-analyzer",
+  "version": "1.0.0",
+  "description": "The time analyzer is used to track the time spent on certain tasks, processes and actions",
+  "main": "app.js",
+  "scripts": {
+    "server" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrangeMGE/Time-Analyzer.git"
+  },
+  "keywords": [
+    "todo",
+    "time",
+    "analyze"
+  ],
+  "author": "Volkov Vitaliy <orangeitracers@yandex.ru> (Orange)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrangeMGE/Time-Analyzer/issues"
+  },
+  "homepage": "https://github.com/OrangeMGE/Time-Analyzer#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1"
+  }
+}
